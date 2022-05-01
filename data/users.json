@@ -1,112 +1,12 @@
 [
     {
-        "firstName": "munazza",
-        "lastName": "fatma",
-        "username": "munazza",
+        "firstName": "bhjhc",
+        "lastName": "dhjbsd",
+        "username": "fatmamunazza753@gmail.com",
         "isApproved": true,
-        "hash": "$2a$10$47O0elrxf7W4IvvvFglNVeI4sfhl8elfjrwxF.fdnOvcnU/dsOJne",
-        "id": 11,
-        "dateCreated": "2022-05-01T03:23:58.261Z",
-        "dateUpdated": "2022-05-01T03:23:58.261Z"
-    },
-    {
-        "firstName": "NVDHGSE",
-        "lastName": " DNS",
-        "username": " NDBVHJE",
-        "isApproved": false,
-        "hash": "$2a$10$XDjFFVRHr60IMODIbh8oBez3c/anAyAdw2dgA6aTB5SNlNaSe4rEO",
-        "id": 12,
-        "dateCreated": "2022-05-01T04:15:54.381Z",
-        "dateUpdated": "2022-05-01T04:15:54.381Z"
-    },
-    {
-        "firstName": "BCVHG",
-        "lastName": "FGCGH",
-        "username": "VGHH",
-        "isApproved": false,
-        "hash": "$2a$10$bvZTyu1LLGpCFtf5N4OfLud4v/JOXrIQz5FvBLyvPTv8ZyYGztRF2",
-        "id": 13,
-        "dateCreated": "2022-05-01T04:18:46.512Z",
-        "dateUpdated": "2022-05-01T04:18:46.512Z"
-    },
-    {
-        "firstName": "NVDHGSE",
-        "lastName": " DNS",
-        "username": " sdrte",
-        "isApproved": false,
-        "hash": "$2a$10$/Vq7tepupOkh2yRhxNm7Oe0kRUgd4obJpZMf8QyPk6hMV2dTYE816",
-        "id": 14,
-        "dateCreated": "2022-05-01T04:29:56.822Z",
-        "dateUpdated": "2022-05-01T04:29:56.822Z"
-    },
-    {
-        "firstName": "bvsha",
-        "lastName": "svhdj",
-        "username": "nvdh",
-        "isApproved": false,
-        "hash": "$2a$10$3719RSbJ1BfN44hLsCs2x.JgtYQJH7iC.hUP7mJ6EeBWWBWtSorNa",
-        "id": 15,
-        "dateCreated": "2022-05-01T04:31:28.431Z",
-        "dateUpdated": "2022-05-01T04:31:28.431Z"
-    },
-    {
-        "firstName": "v",
-        "lastName": " hjb j",
-        "username": "bj",
-        "isApproved": false,
-        "hash": "$2a$10$HulrQaCzWlCTYatDv3wih.X0Tvlga5ziz0uspTgukPEwz4By24UTq",
-        "id": 16,
-        "dateCreated": "2022-05-01T05:16:32.255Z",
-        "dateUpdated": "2022-05-01T05:16:32.255Z"
-    },
-    {
-        "firstName": "hbjh",
-        "lastName": "jbhj",
-        "username": "bv jh",
-        "isApproved": true,
-        "hash": "$2a$10$ARlPUmFyQvXq08j/pAN9h.CDS.fc4zB0s3GNVNVM6/oyB94RzBm9C",
-        "id": 17,
-        "dateCreated": "2022-05-01T05:19:02.012Z",
-        "dateUpdated": "2022-05-01T05:19:02.012Z"
-    },
-    {
-        "firstName": "munazza",
-        "lastName": "fatma",
-        "username": "fatmamunazza",
-        "isApproved": true,
-        "hash": "$2a$10$EmoD039GWSt6v2uoVvwTfum01WgQAyhwW/4K0k95SvDJTl2n04x1u",
-        "id": 18,
-        "dateCreated": "2022-05-01T05:42:40.583Z",
-        "dateUpdated": "2022-05-01T05:42:40.583Z"
-    },
-    {
-        "firstName": "munazza",
-        "lastName": "fatma",
-        "username": "myname",
-        "isApproved": false,
-        "hash": "$2a$10$HGFqKawXGFWj/VVyKU6UR.ya9XeGc0g6xIBPCtS8Xd4HMIFeiEbj.",
-        "id": 19,
-        "dateCreated": "2022-05-01T05:45:00.454Z",
-        "dateUpdated": "2022-05-01T05:45:00.454Z"
-    },
-    {
-        "firstName": "munazza",
-        "lastName": "fatma",
-        "username": "myname2",
-        "isApproved": false,
-        "hash": "$2a$10$N1qm6vbDWjm07VGtzxuWk.PHqfRg/ZHKjsckB1HficrNSJguUUYMG",
-        "id": 20,
-        "dateCreated": "2022-05-01T05:47:13.784Z",
-        "dateUpdated": "2022-05-01T05:47:13.784Z"
-    },
-    {
-        "firstName": "munazza",
-        "lastName": "fatma",
-        "username": "myname23",
-        "isApproved": true,
-        "hash": "$2a$10$u1TpRxtcoL7KcRTk4UO2te/fcIPom4UQyOkSfxSjyKUI4C7QU463G",
-        "id": 21,
-        "dateCreated": "2022-05-01T05:48:17.440Z",
-        "dateUpdated": "2022-05-01T05:48:17.440Z"
+        "hash": "$2a$10$N86S2puxrN5VgidM15qGCOVLPyQZ4aml2uALb5QSRibPih70RefWe",
+        "id": 1,
+        "dateCreated": "2022-05-01T06:38:58.650Z",
+        "dateUpdated": "2022-05-01T06:38:58.650Z"
     }
 ]

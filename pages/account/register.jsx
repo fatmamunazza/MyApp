@@ -33,17 +33,16 @@ function Register() {
     function onSubmit(user) {
         return userService.register(user)
             .then(async(res) => {
-                alertService.success('Registration successful', { keepAfterRouteChange: true });
+                alertService.success('Registration successful');
              
-                userService.verification(res).then(()=>{
+               userService.verification(res).then(()=>{
                     alertService.success("Email sent successfully. Please verify your email", {
                         keepAfterRouteChange: true,
                       });
                     router.push('login');
-                }).catch(alertService.error);
+                });
                
             })
-      
             .catch(alertService.error);
     }
 

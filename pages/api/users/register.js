@@ -18,6 +18,5 @@ function register(req, res) {
   user.hash = bcrypt.hashSync(password, 10);
 
   const body = usersRepo.create(user);
-  console.bosy;
   return res.status(200).json(body);
 }

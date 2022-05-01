@@ -12,7 +12,9 @@ function Confirmation() {
        if(!id.includes("[")){
         userService.confirmation(id)
              .then(async(res) => {
-                router.push('login');
+                alertService.success("Verification successfull", {
+                    keepAfterRouteChange: true,
+                  });
              })
              .catch(alertService.error);
        }
@@ -23,7 +25,8 @@ function Confirmation() {
     return (
         <div className="p-4">
             <div className="container">
-                <p>Verification successfull</p>
+              
+                <p><Link href="/account/login">Login</Link></p>
             </div>
         </div>
     );
