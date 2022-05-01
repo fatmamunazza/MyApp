@@ -11,12 +11,12 @@ export default apiHandler({
 });
 
 function authenticate(req, res) {
-  const { username, password } = req.body;
-  const user = usersRepo.find((u) => u.username === username);
+  const { email, password } = req.body;
+  const user = usersRepo.find((u) => u.email === email);
 
   // validate
   if (!(user && bcrypt.compareSync(password, user.hash))) {
-    throw "Username or password is incorrect";
+    throw "Email or password is incorrect";
   }
 
   if (user.isApproved == false) {
@@ -25,13 +25,13 @@ function authenticate(req, res) {
 
   // create a jwt token that is valid for 7 days
   const token = jwt.sign({ sub: user.id }, serverRuntimeConfig.secret, {
-    expiresIn: "7d",
+    expiresIn: "1d",
   });
 
   // return basic user details and token
   return res.status(200).json({
     id: user.id,
-    username: user.username,
+    email: user.email,
     firstName: user.firstName,
     lastName: user.lastName,
     isApproved: user.isApproved,

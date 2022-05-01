@@ -2,11 +2,21 @@
     {
         "firstName": "bhjhc",
         "lastName": "dhjbsd",
-        "username": "fatmamunazza753@gmail.com",
+        "email": "fatmamunazza753@gmail.com",
         "isApproved": true,
         "hash": "$2a$10$N86S2puxrN5VgidM15qGCOVLPyQZ4aml2uALb5QSRibPih70RefWe",
         "id": 1,
         "dateCreated": "2022-05-01T06:38:58.650Z",
         "dateUpdated": "2022-05-01T06:38:58.650Z"
+    },
+    {
+        "firstName": "sharad",
+        "lastName": "rai",
+        "email": "xocahac768@wowcg.com",
+        "isApproved": true,
+        "hash": "$2a$10$ypS.rC7ZfXnRfxknbwVb8.yEqVe9k2vfrkosFqF29G0oohcevNmHu",
+        "id": 2,
+        "dateCreated": "2022-05-01T17:51:38.510Z",
+        "dateUpdated": "2022-05-01T17:51:38.510Z"
     }
 ]

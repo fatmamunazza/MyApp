@@ -1,9 +1,13 @@
-const nodemailer = require("nodemailer");
-import { alertService } from "services";
+import nodemailer from "nodemailer";
 
-export default verification;
+import { apiHandler } from "helpers/api";
+
+export default apiHandler({
+  post: verification,
+});
 
 async function verification(req, res) {
+  const { email, id, firstName } = req?.body;
   var smtpTransport = await nodemailer.createTransport({
     service: "Gmail",
     auth: {
@@ -16,15 +20,16 @@ async function verification(req, res) {
   let info = await smtpTransport
     .sendMail({
       from: "munazzafatma98765@gmail.com",
-      to: req.body.username,
-      subject: "Please confirm your account",
+      to: email,
+      subject: "Please confirm your email account",
       html: `<h1>Email Confirmation</h1>
-      <h2>Hello ${req.body.firstName}</h2>
-        <p>Thank you for subscribing. Please confirm your email by clicking on the following link</p>
-        <a href=http://localhost:3000/account/confirmation/${req.body.id}> Click here</a>
+      <h2>Hello ${firstName}</h2>
+        <p>Please confirm your email by clicking on the following link</p>
+        <a href=http://localhost:3000/account/confirmation/${id}> Click here</a>
+        <p>Thank you for subscribing.</p>
         </div>`,
     })
-    .catch((err) => console.log(err));
+    .catch((err) => console.log("verification", err));
   console.log("Message sent: %s", info.messageId);
   return res.status(200).json({});
 }
