@@ -1,5 +1,4 @@
 import { userService, alertService } from "services";
-import { Link } from "components";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Login from "../login";
@@ -20,7 +19,7 @@ function Confirmation() {
         })
         .catch(alertService.error);
     }
-  }, []);
+  }, [router.asPath]);
 
   return <Login />;
 }
