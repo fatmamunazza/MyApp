@@ -28,10 +28,10 @@ function update(req, res) {
 
   // validate
   if (
-    user.username !== params.username &&
-    usersRepo.find((x) => x.username === params.username)
+    user.email !== params.email &&
+    usersRepo.find((x) => x.email === params.email)
   )
-    throw `User with the username "${params.username}" already exists`;
+    throw `User with the email "${params.email}" already exists`;
 
   // only update hashed password if entered
   if (password) {

@@ -37,7 +37,7 @@ function App({ Component, pageProps }) {
   function authCheck(url) {
     // redirect to login page if accessing a private page and not logged in
     setUser(userService.userValue);
-    const publicPaths = ["/account/login", "/account/register"];
+    const publicPaths = ["/account/login", "/account/register", "/home"];
 
     const path = url.split("?")[0];
     if (path.includes("confirmation")) {
@@ -56,8 +56,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Next.js 11 - User Registration and Login Example</title>
-
+        <title>Terra World</title>
         {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link
           href="//netdna.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -71,22 +70,7 @@ function App({ Component, pageProps }) {
         {authorized && <Component {...pageProps} />}
       </div>
 
-      {/* credits */}
-      <div className="text-center mt-4">
-        <p>
-          <a
-            href="https://jasonwatmore.com/post/2021/08/19/next-js-11-user-registration-and-login-tutorial-with-example-app"
-            target="_top"
-          >
-            Next.js 11 - User Registration and Login Tutorial with Example App
-          </a>
-        </p>
-        <p>
-          <a href="https://jasonwatmore.com" target="_top">
-            JasonWatmore.com
-          </a>
-        </p>
-      </div>
+      <footer>Powered by Terra</footer>
     </>
   );
 }
